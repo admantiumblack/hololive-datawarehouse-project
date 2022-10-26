@@ -1,5 +1,8 @@
 cryptography==38.0.1
-hydralit==1.0.14
 hydralit_components==1.0.10
 PyMySQL==1.0.2
 SQLAlchemy==1.4.42
+networkx==2.8.7
+matplotlib==3.6.1
+scipy==1.9.3
+pyvis==0.3.0

@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d0" for="edge" attr.name="weight" attr.type="long"/>
+<graph edgedefault="directed"><node id="@kobokanaeru"/>
+<node id="#Royalonimbus"/>
+<node id="http://youtu.be/XbC3cBU67iI"/>
+<edge source="@kobokanaeru" target="@kobokanaeru">
+  <data key="d0">8</data>
+</edge>
+<edge source="@kobokanaeru" target="#Royalonimbus">
+  <data key="d0">1</data>
+</edge>
+<edge source="@kobokanaeru" target="http://youtu.be/XbC3cBU67iI">
+  <data key="d0">1</data>
+</edge>
+</graph></graphml>

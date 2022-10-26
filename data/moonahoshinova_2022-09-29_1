@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d0" for="edge" attr.name="weight" attr.type="long"/>
+<graph edgedefault="directed"><node id="@moonahoshinova"/>
+<node id="@Little_Hayate"/>
+<node id="@rofikul_amri1"/>
+<node id="@onyo_music"/>
+<node id="@akubukanako"/>
+<node id="@Rena__Anggraeni"/>
+<node id="@Wicaksono_Ibra"/>
+<node id="@MakeItAQuote"/>
+<node id="@ajunx"/>
+<node id="@eddymation"/>
+<edge source="@moonahoshinova" target="@moonahoshinova">
+  <data key="d0">104</data>
+</edge>
+<edge source="@moonahoshinova" target="@Little_Hayate">
+  <data key="d0">1</data>
+</edge>
+<edge source="@moonahoshinova" target="@rofikul_amri1">
+  <data key="d0">1</data>
+</edge>
+<edge source="@moonahoshinova" target="@onyo_music">
+  <data key="d0">1</data>
+</edge>
+<edge source="@moonahoshinova" target="@akubukanako">
+  <data key="d0">1</data>
+</edge>
+<edge source="@moonahoshinova" target="@Rena__Anggraeni">
+  <data key="d0">1</data>
+</edge>
+<edge source="@moonahoshinova" target="@Wicaksono_Ibra">
+  <data key="d0">1</data>
+</edge>
+<edge source="@moonahoshinova" target="@MakeItAQuote">
+  <data key="d0">1</data>
+</edge>
+<edge source="@moonahoshinova" target="@ajunx">
+  <data key="d0">1</data>
+</edge>
+<edge source="@moonahoshinova" target="@eddymation">
+  <data key="d0">1</data>
+</edge>
+</graph></graphml>

@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d0" for="edge" attr.name="weight" attr.type="long"/>
+<graph edgedefault="directed"><node id="@kureijiollie"/>
+<node id="@ANDRElNAS"/>
+<node id="@vipirius"/>
+<node id="@Rafiki517"/>
+<node id="@JonathanAlfarot"/>
+<node id="@AnDraw_art"/>
+<node id="@googolplexbyte"/>
+<node id="@Rokkon69"/>
+<node id="@OppositeRaphael"/>
+<node id="@daizeemi"/>
+<node id="@Sonnenritter2"/>
+<node id="@Midnight_Midna"/>
+<edge source="@kureijiollie" target="@kureijiollie">
+  <data key="d0">131</data>
+</edge>
+<edge source="@kureijiollie" target="@ANDRElNAS">
+  <data key="d0">1</data>
+</edge>
+<edge source="@kureijiollie" target="@vipirius">
+  <data key="d0">2</data>
+</edge>
+<edge source="@kureijiollie" target="@Rafiki517">
+  <data key="d0">1</data>
+</edge>
+<edge source="@kureijiollie" target="@JonathanAlfarot">
+  <data key="d0">2</data>
+</edge>
+<edge source="@kureijiollie" target="@AnDraw_art">
+  <data key="d0">1</data>
+</edge>
+<edge source="@kureijiollie" target="@googolplexbyte">
+  <data key="d0">3</data>
+</edge>
+<edge source="@kureijiollie" target="@Rokkon69">
+  <data key="d0">1</data>
+</edge>
+<edge source="@kureijiollie" target="@OppositeRaphael">
+  <data key="d0">1</data>
+</edge>
+<edge source="@kureijiollie" target="@daizeemi">
+  <data key="d0">1</data>
+</edge>
+<edge source="@kureijiollie" target="@Sonnenritter2">
+  <data key="d0">1</data>
+</edge>
+<edge source="@kureijiollie" target="@Midnight_Midna">
+  <data key="d0">1</data>
+</edge>
+</graph></graphml>

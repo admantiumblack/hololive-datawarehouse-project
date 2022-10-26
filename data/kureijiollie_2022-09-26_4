@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d0" for="edge" attr.name="weight" attr.type="long"/>
+<graph edgedefault="directed"><node id="@kureijiollie"/>
+<node id="@VongolaGearX"/>
+<node id="@bagusbigis"/>
+<node id="@TriggeredTato"/>
+<node id="@ShaddollRey"/>
+<edge source="@kureijiollie" target="@kureijiollie">
+  <data key="d0">40</data>
+</edge>
+<edge source="@kureijiollie" target="@VongolaGearX">
+  <data key="d0">1</data>
+</edge>
+<edge source="@kureijiollie" target="@bagusbigis">
+  <data key="d0">1</data>
+</edge>
+<edge source="@kureijiollie" target="@TriggeredTato">
+  <data key="d0">1</data>
+</edge>
+<edge source="@kureijiollie" target="@ShaddollRey">
+  <data key="d0">1</data>
+</edge>
+</graph></graphml>

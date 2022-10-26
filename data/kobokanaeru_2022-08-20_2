@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d0" for="edge" attr.name="weight" attr.type="long"/>
+<graph edgedefault="directed"><node id="@kobokanaeru"/>
+<node id="@couonolepdoang"/>
+<node id="@hidden_happy"/>
+<node id="@orangrandomcuy"/>
+<node id="@victo_ryusei"/>
+<node id="@wjtder"/>
+<node id="@hot_potatochipz"/>
+<node id="@Mc_WolfD"/>
+<node id="@meongskuyy"/>
+<node id="@h_origami"/>
+<node id="@rickyfattah"/>
+<edge source="@kobokanaeru" target="@kobokanaeru">
+  <data key="d0">211</data>
+</edge>
+<edge source="@kobokanaeru" target="@couonolepdoang">
+  <data key="d0">1</data>
+</edge>
+<edge source="@kobokanaeru" target="@hidden_happy">
+  <data key="d0">1</data>
+</edge>
+<edge source="@kobokanaeru" target="@orangrandomcuy">
+  <data key="d0">1</data>
+</edge>
+<edge source="@kobokanaeru" target="@victo_ryusei">
+  <data key="d0">2</data>
+</edge>
+<edge source="@kobokanaeru" target="@wjtder">
+  <data key="d0">2</data>
+</edge>
+<edge source="@kobokanaeru" target="@hot_potatochipz">
+  <data key="d0">1</data>
+</edge>
+<edge source="@kobokanaeru" target="@Mc_WolfD">
+  <data key="d0">1</data>
+</edge>
+<edge source="@kobokanaeru" target="@meongskuyy">
+  <data key="d0">1</data>
+</edge>
+<edge source="@kobokanaeru" target="@h_origami">
+  <data key="d0">1</data>
+</edge>
+<edge source="@kobokanaeru" target="@rickyfattah">
+  <data key="d0">1</data>
+</edge>
+</graph></graphml>

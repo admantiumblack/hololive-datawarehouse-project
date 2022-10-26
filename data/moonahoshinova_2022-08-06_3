@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d0" for="edge" attr.name="weight" attr.type="long"/>
+<graph edgedefault="directed"><node id="@moonahoshinova"/>
+<node id="@DarmaS25"/>
+<node id="@Chegi_Channel"/>
+<node id="@HololiveMemes"/>
+<node id="@Rays_Szn"/>
+<node id="@hsia522"/>
+<node id="@mamankhoshinov"/>
+<node id="@Its_ETECH"/>
+<node id="@tetsunobu21"/>
+<edge source="@moonahoshinova" target="@moonahoshinova">
+  <data key="d0">211</data>
+</edge>
+<edge source="@moonahoshinova" target="@DarmaS25">
+  <data key="d0">1</data>
+</edge>
+<edge source="@moonahoshinova" target="@Chegi_Channel">
+  <data key="d0">1</data>
+</edge>
+<edge source="@moonahoshinova" target="@HololiveMemes">
+  <data key="d0">2</data>
+</edge>
+<edge source="@moonahoshinova" target="@Rays_Szn">
+  <data key="d0">1</data>
+</edge>
+<edge source="@moonahoshinova" target="@hsia522">
+  <data key="d0">1</data>
+</edge>
+<edge source="@moonahoshinova" target="@mamankhoshinov">
+  <data key="d0">1</data>
+</edge>
+<edge source="@moonahoshinova" target="@Its_ETECH">
+  <data key="d0">1</data>
+</edge>
+<edge source="@moonahoshinova" target="@tetsunobu21">
+  <data key="d0">1</data>
+</edge>
+</graph></graphml>

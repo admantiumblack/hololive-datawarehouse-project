@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d0" for="edge" attr.name="weight" attr.type="long"/>
+<graph edgedefault="directed"><node id="@kureijiollie"/>
+<node id="@vestiazeta"/>
+<node id="@Nazarielle"/>
+<node id="https://youtu.be/X7rrDFe3CSg"/>
+<node id="@DrJay__"/>
+<node id="@ArchieVtuber"/>
+<node id="@sarariman114"/>
+<edge source="@kureijiollie" target="@kureijiollie">
+  <data key="d0">60</data>
+</edge>
+<edge source="@kureijiollie" target="@vestiazeta">
+  <data key="d0">1</data>
+</edge>
+<edge source="@kureijiollie" target="@Nazarielle">
+  <data key="d0">1</data>
+</edge>
+<edge source="@kureijiollie" target="https://youtu.be/X7rrDFe3CSg">
+  <data key="d0">1</data>
+</edge>
+<edge source="@kureijiollie" target="@DrJay__">
+  <data key="d0">1</data>
+</edge>
+<edge source="@kureijiollie" target="@ArchieVtuber">
+  <data key="d0">1</data>
+</edge>
+<edge source="@kureijiollie" target="@sarariman114">
+  <data key="d0">1</data>
+</edge>
+</graph></graphml>

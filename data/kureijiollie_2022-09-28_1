@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d0" for="edge" attr.name="weight" attr.type="long"/>
+<graph edgedefault="directed"><node id="@kureijiollie"/>
+<node id="https://youtu.be/ZZ5LpwO-An4"/>
+<node id="@TsumeShiro"/>
+<node id="https://youtu.be/FR7wOGyAzpw"/>
+<node id="@DokuroDx"/>
+<node id="@me_notpog"/>
+<node id="@max_problems"/>
+<node id="@RealCharmingJo"/>
+<node id="@SLACKCiRCUS"/>
+<node id="@NemutakaYuta"/>
+<node id="@moonahoshinova"/>
+<node id="@absinthevii"/>
+<node id="@Jamri04408669"/>
+<node id="@Pradana1102"/>
+<node id="@Younz6969"/>
+<edge source="@kureijiollie" target="@kureijiollie">
+  <data key="d0">82</data>
+</edge>
+<edge source="@kureijiollie" target="https://youtu.be/ZZ5LpwO-An4">
+  <data key="d0">1</data>
+</edge>
+<edge source="@kureijiollie" target="@TsumeShiro">
+  <data key="d0">1</data>
+</edge>
+<edge source="@kureijiollie" target="https://youtu.be/FR7wOGyAzpw">
+  <data key="d0">1</data>
+</edge>
+<edge source="@kureijiollie" target="@DokuroDx">
+  <data key="d0">2</data>
+</edge>
+<edge source="@kureijiollie" target="@me_notpog">
+  <data key="d0">2</data>
+</edge>
+<edge source="@kureijiollie" target="@max_problems">
+  <data key="d0">1</data>
+</edge>
+<edge source="@kureijiollie" target="@RealCharmingJo">
+  <data key="d0">1</data>
+</edge>
+<edge source="@kureijiollie" target="@SLACKCiRCUS">
+  <data key="d0">1</data>
+</edge>
+<edge source="@kureijiollie" target="@NemutakaYuta">
+  <data key="d0">2</data>
+</edge>
+<edge source="@kureijiollie" target="@moonahoshinova">
+  <data key="d0">1</data>
+</edge>
+<edge source="@kureijiollie" target="@absinthevii">
+  <data key="d0">1</data>
+</edge>
+<edge source="@kureijiollie" target="@Jamri04408669">
+  <data key="d0">1</data>
+</edge>
+<edge source="@kureijiollie" target="@Pradana1102">
+  <data key="d0">2</data>
+</edge>
+<edge source="@kureijiollie" target="@Younz6969">
+  <data key="d0">2</data>
+</edge>
+</graph></graphml>

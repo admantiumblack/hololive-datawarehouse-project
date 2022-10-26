@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d0" for="edge" attr.name="weight" attr.type="long"/>
+<graph edgedefault="directed"><node id="@kobokanaeru"/>
+<node id="@Torches_0"/>
+<node id="@zoru_pines"/>
+<node id="@_ysfpwt2230"/>
+<node id="@Closerlinee"/>
+<node id="@2019Salomo"/>
+<node id="@goflam_"/>
+<node id="@punipun7"/>
+<edge source="@kobokanaeru" target="@kobokanaeru">
+  <data key="d0">209</data>
+</edge>
+<edge source="@kobokanaeru" target="@Torches_0">
+  <data key="d0">2</data>
+</edge>
+<edge source="@kobokanaeru" target="@zoru_pines">
+  <data key="d0">5</data>
+</edge>
+<edge source="@kobokanaeru" target="@_ysfpwt2230">
+  <data key="d0">1</data>
+</edge>
+<edge source="@kobokanaeru" target="@Closerlinee">
+  <data key="d0">1</data>
+</edge>
+<edge source="@kobokanaeru" target="@2019Salomo">
+  <data key="d0">1</data>
+</edge>
+<edge source="@kobokanaeru" target="@goflam_">
+  <data key="d0">1</data>
+</edge>
+<edge source="@kobokanaeru" target="@punipun7">
+  <data key="d0">1</data>
+</edge>
+</graph></graphml>

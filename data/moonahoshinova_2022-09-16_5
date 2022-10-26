@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d0" for="edge" attr.name="weight" attr.type="long"/>
+<graph edgedefault="directed"><node id="@moonahoshinova"/>
+<node id="@Daniel7iao"/>
+<node id="#MoonaHoshinova3D"/>
+<node id="@hololive_Id"/>
+<node id="@HololiveMemes"/>
+<node id="@anyamelfissa"/>
+<node id="@kobokanaeru"/>
+<node id="@moricalliope"/>
+<node id="@omarupolka"/>
+<node id="@regisaltare"/>
+<node id="@irys_en"/>
+<node id="https://Learn more"/>
+<node id="@takanelui"/>
+<node id="@tokino_sora"/>
+<node id="@ceresfauna"/>
+<edge source="@moonahoshinova" target="@moonahoshinova">
+  <data key="d0">197</data>
+</edge>
+<edge source="@moonahoshinova" target="@Daniel7iao">
+  <data key="d0">1</data>
+</edge>
+<edge source="@moonahoshinova" target="#MoonaHoshinova3D">
+  <data key="d0">4</data>
+</edge>
+<edge source="@moonahoshinova" target="@hololive_Id">
+  <data key="d0">1</data>
+</edge>
+<edge source="@moonahoshinova" target="@HololiveMemes">
+  <data key="d0">1</data>
+</edge>
+<edge source="@moonahoshinova" target="@anyamelfissa">
+  <data key="d0">1</data>
+</edge>
+<edge source="@moonahoshinova" target="@kobokanaeru">
+  <data key="d0">3</data>
+</edge>
+<edge source="@moonahoshinova" target="@moricalliope">
+  <data key="d0">1</data>
+</edge>
+<edge source="@moonahoshinova" target="@omarupolka">
+  <data key="d0">1</data>
+</edge>
+<edge source="@moonahoshinova" target="@regisaltare">
+  <data key="d0">1</data>
+</edge>
+<edge source="@moonahoshinova" target="@irys_en">
+  <data key="d0">1</data>
+</edge>
+<edge source="@moonahoshinova" target="https://Learn more">
+  <data key="d0">1</data>
+</edge>
+<edge source="@moonahoshinova" target="@takanelui">
+  <data key="d0">1</data>
+</edge>
+<edge source="@moonahoshinova" target="@tokino_sora">
+  <data key="d0">1</data>
+</edge>
+<edge source="@moonahoshinova" target="@ceresfauna">
+  <data key="d0">1</data>
+</edge>
+</graph></graphml>

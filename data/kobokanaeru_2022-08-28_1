@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d0" for="edge" attr.name="weight" attr.type="long"/>
+<graph edgedefault="directed"><node id="@kobokanaeru"/>
+<node id="@regisaltare"/>
+<node id="@AsasMwawa"/>
+<node id="@zoru_pines"/>
+<node id="@BambankSoo"/>
+<node id="@jackwabbaa"/>
+<node id="@GeminkMampus"/>
+<node id="@WJLGstories"/>
+<node id="@cheekiserval"/>
+<edge source="@kobokanaeru" target="@kobokanaeru">
+  <data key="d0">91</data>
+</edge>
+<edge source="@kobokanaeru" target="@regisaltare">
+  <data key="d0">90</data>
+</edge>
+<edge source="@kobokanaeru" target="@AsasMwawa">
+  <data key="d0">1</data>
+</edge>
+<edge source="@kobokanaeru" target="@zoru_pines">
+  <data key="d0">2</data>
+</edge>
+<edge source="@kobokanaeru" target="@BambankSoo">
+  <data key="d0">1</data>
+</edge>
+<edge source="@kobokanaeru" target="@jackwabbaa">
+  <data key="d0">1</data>
+</edge>
+<edge source="@kobokanaeru" target="@GeminkMampus">
+  <data key="d0">1</data>
+</edge>
+<edge source="@kobokanaeru" target="@WJLGstories">
+  <data key="d0">1</data>
+</edge>
+<edge source="@kobokanaeru" target="@cheekiserval">
+  <data key="d0">1</data>
+</edge>
+</graph></graphml>

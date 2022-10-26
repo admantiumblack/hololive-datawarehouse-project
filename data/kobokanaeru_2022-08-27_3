@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d0" for="edge" attr.name="weight" attr.type="long"/>
+<graph edgedefault="directed"><node id="@kobokanaeru"/>
+<node id="@Keyserdoesoze"/>
+<node id="@Alfiyan63937836"/>
+<node id="@chef_raviolli"/>
+<node id="@aubrey1408"/>
+<node id="@AkiemNirak"/>
+<node id="@haimehaikal"/>
+<node id="@yusuf_firmanadi"/>
+<edge source="@kobokanaeru" target="@kobokanaeru">
+  <data key="d0">99</data>
+</edge>
+<edge source="@kobokanaeru" target="@Keyserdoesoze">
+  <data key="d0">1</data>
+</edge>
+<edge source="@kobokanaeru" target="@Alfiyan63937836">
+  <data key="d0">1</data>
+</edge>
+<edge source="@kobokanaeru" target="@chef_raviolli">
+  <data key="d0">1</data>
+</edge>
+<edge source="@kobokanaeru" target="@aubrey1408">
+  <data key="d0">1</data>
+</edge>
+<edge source="@kobokanaeru" target="@AkiemNirak">
+  <data key="d0">1</data>
+</edge>
+<edge source="@kobokanaeru" target="@haimehaikal">
+  <data key="d0">1</data>
+</edge>
+<edge source="@kobokanaeru" target="@yusuf_firmanadi">
+  <data key="d0">1</data>
+</edge>
+</graph></graphml>

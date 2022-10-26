@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d0" for="edge" attr.name="weight" attr.type="long"/>
+<graph edgedefault="directed"><node id="@kureijiollie"/>
+<node id="@Fateburn69"/>
+<node id="@EliraPendora"/>
+<node id="@kaelakovalskia"/>
+<node id="@Cien_NL"/>
+<node id="@pr_netto"/>
+<node id="@Javoti2"/>
+<node id="@ChaosDralcax"/>
+<edge source="@kureijiollie" target="@kureijiollie">
+  <data key="d0">70</data>
+</edge>
+<edge source="@kureijiollie" target="@Fateburn69">
+  <data key="d0">1</data>
+</edge>
+<edge source="@kureijiollie" target="@EliraPendora">
+  <data key="d0">1</data>
+</edge>
+<edge source="@kureijiollie" target="@kaelakovalskia">
+  <data key="d0">1</data>
+</edge>
+<edge source="@kureijiollie" target="@Cien_NL">
+  <data key="d0">2</data>
+</edge>
+<edge source="@kureijiollie" target="@pr_netto">
+  <data key="d0">1</data>
+</edge>
+<edge source="@kureijiollie" target="@Javoti2">
+  <data key="d0">1</data>
+</edge>
+<edge source="@kureijiollie" target="@ChaosDralcax">
+  <data key="d0">1</data>
+</edge>
+</graph></graphml>

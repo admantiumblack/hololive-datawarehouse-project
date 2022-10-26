@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d0" for="edge" attr.name="weight" attr.type="long"/>
+<graph edgedefault="directed"><node id="@kobokanaeru"/>
+<node id="@Zaidxxxxxxx"/>
+<node id="@purnama__c"/>
+<node id="@mikomiko779"/>
+<node id="@HiraaKio"/>
+<node id="@cynt29_k"/>
+<node id="@PinkRotten"/>
+<node id="#izinnyales"/>
+<node id="https://facebook.com/groups/623494962857352/…"/>
+<edge source="@kobokanaeru" target="@kobokanaeru">
+  <data key="d0">132</data>
+</edge>
+<edge source="@kobokanaeru" target="@Zaidxxxxxxx">
+  <data key="d0">1</data>
+</edge>
+<edge source="@kobokanaeru" target="@purnama__c">
+  <data key="d0">1</data>
+</edge>
+<edge source="@kobokanaeru" target="@mikomiko779">
+  <data key="d0">1</data>
+</edge>
+<edge source="@kobokanaeru" target="@HiraaKio">
+  <data key="d0">1</data>
+</edge>
+<edge source="@kobokanaeru" target="@cynt29_k">
+  <data key="d0">1</data>
+</edge>
+<edge source="@kobokanaeru" target="@PinkRotten">
+  <data key="d0">1</data>
+</edge>
+<edge source="@kobokanaeru" target="#izinnyales">
+  <data key="d0">1</data>
+</edge>
+<edge source="@kobokanaeru" target="https://facebook.com/groups/623494962857352/…">
+  <data key="d0">1</data>
+</edge>
+</graph></graphml>

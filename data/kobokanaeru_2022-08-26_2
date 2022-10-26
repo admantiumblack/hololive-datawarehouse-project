@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d0" for="edge" attr.name="weight" attr.type="long"/>
+<graph edgedefault="directed"><node id="@kobokanaeru"/>
+<node id="@resza_ardana27"/>
+<node id="@Whyarey98195841"/>
+<node id="@fidz_al_fidz"/>
+<node id="@Nyanyaoou"/>
+<node id="@BearFlow0"/>
+<node id="@NinoNakano736"/>
+<node id="@Ganngenkgonk02"/>
+<node id="@Neatyeet1"/>
+<node id="@orangrandomcuy"/>
+<node id="@AsasMwawa"/>
+<node id="@ydhmaugmnlagi"/>
+<node id="@amoreeee26"/>
+<node id="@rkvviver"/>
+<node id="@IkanSushi"/>
+<node id="@Caheci1"/>
+<edge source="@kobokanaeru" target="@kobokanaeru">
+  <data key="d0">62</data>
+</edge>
+<edge source="@kobokanaeru" target="@resza_ardana27">
+  <data key="d0">1</data>
+</edge>
+<edge source="@kobokanaeru" target="@Whyarey98195841">
+  <data key="d0">3</data>
+</edge>
+<edge source="@kobokanaeru" target="@fidz_al_fidz">
+  <data key="d0">3</data>
+</edge>
+<edge source="@kobokanaeru" target="@Nyanyaoou">
+  <data key="d0">1</data>
+</edge>
+<edge source="@kobokanaeru" target="@BearFlow0">
+  <data key="d0">1</data>
+</edge>
+<edge source="@kobokanaeru" target="@NinoNakano736">
+  <data key="d0">1</data>
+</edge>
+<edge source="@kobokanaeru" target="@Ganngenkgonk02">
+  <data key="d0">2</data>
+</edge>
+<edge source="@kobokanaeru" target="@Neatyeet1">
+  <data key="d0">3</data>
+</edge>
+<edge source="@kobokanaeru" target="@orangrandomcuy">
+  <data key="d0">1</data>
+</edge>
+<edge source="@kobokanaeru" target="@AsasMwawa">
+  <data key="d0">1</data>
+</edge>
+<edge source="@kobokanaeru" target="@ydhmaugmnlagi">
+  <data key="d0">4</data>
+</edge>
+<edge source="@kobokanaeru" target="@amoreeee26">
+  <data key="d0">5</data>
+</edge>
+<edge source="@kobokanaeru" target="@rkvviver">
+  <data key="d0">2</data>
+</edge>
+<edge source="@kobokanaeru" target="@IkanSushi">
+  <data key="d0">1</data>
+</edge>
+<edge source="@kobokanaeru" target="@Caheci1">
+  <data key="d0">1</data>
+</edge>
+</graph></graphml>

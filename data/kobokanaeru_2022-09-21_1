@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d0" for="edge" attr.name="weight" attr.type="long"/>
+<graph edgedefault="directed"><node id="@kobokanaeru"/>
+<node id="@Yellow__Dino"/>
+<node id="@RedRiot954"/>
+<node id="@kaelakovalskia"/>
+<node id="@MineRose_id"/>
+<node id="#Bitcoin"/>
+<node id="@butuhprimogems"/>
+<node id="https://youtu.be/LjakuVA3P5U"/>
+<node id="@AnggiEYD48"/>
+<edge source="@kobokanaeru" target="@kobokanaeru">
+  <data key="d0">116</data>
+</edge>
+<edge source="@kobokanaeru" target="@Yellow__Dino">
+  <data key="d0">1</data>
+</edge>
+<edge source="@kobokanaeru" target="@RedRiot954">
+  <data key="d0">1</data>
+</edge>
+<edge source="@kobokanaeru" target="@kaelakovalskia">
+  <data key="d0">1</data>
+</edge>
+<edge source="@kobokanaeru" target="@MineRose_id">
+  <data key="d0">2</data>
+</edge>
+<edge source="@kobokanaeru" target="#Bitcoin">
+  <data key="d0">1</data>
+</edge>
+<edge source="@kobokanaeru" target="@butuhprimogems">
+  <data key="d0">1</data>
+</edge>
+<edge source="@kobokanaeru" target="https://youtu.be/LjakuVA3P5U">
+  <data key="d0">1</data>
+</edge>
+<edge source="@kobokanaeru" target="@AnggiEYD48">
+  <data key="d0">1</data>
+</edge>
+</graph></graphml>

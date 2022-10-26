@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d0" for="edge" attr.name="weight" attr.type="long"/>
+<graph edgedefault="directed"><node id="@moonahoshinova"/>
+<node id="#holoIDCup2022"/>
+<node id="@Aldyscofield"/>
+<node id="@ourokronii"/>
+<node id="@kobokanaeru"/>
+<node id="@kureijiollie"/>
+<node id="@achan_UGA"/>
+<node id="@anyamelfissa"/>
+<edge source="@moonahoshinova" target="@moonahoshinova">
+  <data key="d0">208</data>
+</edge>
+<edge source="@moonahoshinova" target="#holoIDCup2022">
+  <data key="d0">5</data>
+</edge>
+<edge source="@moonahoshinova" target="@Aldyscofield">
+  <data key="d0">1</data>
+</edge>
+<edge source="@moonahoshinova" target="@ourokronii">
+  <data key="d0">1</data>
+</edge>
+<edge source="@moonahoshinova" target="@kobokanaeru">
+  <data key="d0">3</data>
+</edge>
+<edge source="@moonahoshinova" target="@kureijiollie">
+  <data key="d0">1</data>
+</edge>
+<edge source="@moonahoshinova" target="@achan_UGA">
+  <data key="d0">2</data>
+</edge>
+<edge source="@moonahoshinova" target="@anyamelfissa">
+  <data key="d0">1</data>
+</edge>
+</graph></graphml>
