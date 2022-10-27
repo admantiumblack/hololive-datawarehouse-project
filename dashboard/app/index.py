@@ -5,7 +5,7 @@ def main():
     st.set_page_config(layout='wide', initial_sidebar_state='collapsed')
     is_compare = st.sidebar.checkbox('Compare Talent Stats')
     if is_compare:
-        pass
+        st.title('TBA')
     else:
         single_stat()
 
