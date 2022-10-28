@@ -6,9 +6,9 @@ services:
     ports:
       - '8501:8501'
     depends_on:
-      - mysql
+      - database
     links:
-      - mysql
+      - database
     working_dir: /app
     volumes:
       - ./:/app
@@ -16,29 +16,16 @@ services:
     env_file:
       - .env
 
-  mysql:
-    image: mysql
+  database:
+    image: mariadb:10.4.21
     volumes: 
-      - databases:/var/lib/mysql
+      - ../database_dump:/docker-entrypoint-initdb.d/
+      - database_volume:/var/lib/mysql
     environment:
-      - MYSQL_ROOT_PASSWORD=password
+      MARIADB_ROOT_PASSWORD: password
+      MARIADB_DATABASE: hololive_twitter
     ports:
-      - 3306:3306/tcp
-  
-  phpmyadmin:
-    image: phpmyadmin
-    ports:
-      - 8080:80
-    environment:
-      # - PMA_ARBITRARY=1
-      - PMA_HOST=mysql
-      - PMA_USER=root
-      - PMA_PASSWORD=password
-    depends_on:
-      - mysql
-    links:
-      - mysql
+      - 3307:3306/tcp
 
 volumes:
-  databases:
-    external: true
+  database_volume:
