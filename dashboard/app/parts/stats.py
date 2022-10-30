@@ -54,10 +54,6 @@ def tweet_networks(container, data, username):
     with container:
         sc.html(HtmlFile.read(), height=435)
 
-def stream_stats(container, username):
-    # data = get_stream_fact_table(username )
-    pass
-
 def create_stats(container, username):
     inspect = st.checkbox('inspect data')
     cat_tabs = container.tabs(['tweet', 'stream'])

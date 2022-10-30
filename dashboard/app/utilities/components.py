@@ -2,6 +2,8 @@ from utilities.queries import get_table_content, get_table_dates, get_topics
 import plotly.express as px
 import plotly.graph_objects as go
 import streamlit as st
+from config import IMG_URLS
+import hydralit_components as hc
 
 def talent_name_menu(container, key=None):
     available_talents = get_table_content('user_dim')
@@ -16,6 +18,22 @@ def date_menu(container, vtuber_name, key=None, table_name='tweet_fact'):
         max_value = date_range.iloc[0]['max_date'],
         key=key
     )
+
+def vtuber_image(container, vtuber_name):
+    container.image(
+        IMG_URLS[vtuber_name],
+        use_column_width = True
+    )
+
+def stat_card(container, data, key:str, theme='neutral', component_key=''):
+    with container:
+        hc.info_card(
+            title=key.replace('_', ' '), 
+            bar_value=data[key] * 100, 
+            sentiment=theme,
+            content=f'{data[key]}',
+            key=key + '_' + component_key
+        )
 
 def stream_plot(container, data, username):
     topics = get_topics(data['topic_mapping_id'].tolist())

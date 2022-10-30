@@ -13,17 +13,20 @@ def get_table_content(table_name, columns=['username']):
 @st.cache
 def get_table_dates(vtuber_name, table_name='tweet_fact'):
     connection = Connector(**DB_PARAM).db_engine
-    query = f'''
+    if not isinstance(vtuber_name, list):
+        vtuber_name = [vtuber_name]
+    query = '''
         SELECT MIN(dd.date) as min_date, MAX(dd.date) as max_date
-        FROM `{table_name}` as tf
+        FROM `{}` as tf
         JOIN date_dim as dd on tf.date_id = dd.date_id
         JOIN user_dim as ud on ud.user_id = tf.user_id
-        WHERE ud.username = %s
+        WHERE ud.username IN ({})
     '''
+    query = query.format(table_name, ','.join(['%s' for _ in  range((len(vtuber_name)))]))
     dates = pd.read_sql_query(
         query, 
         connection,
-        params=[vtuber_name]
+        params=vtuber_name
     )
     return dates
 
