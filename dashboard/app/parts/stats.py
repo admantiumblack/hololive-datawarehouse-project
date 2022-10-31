@@ -20,7 +20,9 @@ def tweet_stats(container, data, username):
     average_data = data.mean()
     cols[1].write(f'average retweet count: ')
     cols[1].write(math.floor(average_data["retweet_count"]))
-    override_theme = {'bgcolor': 'purple','progress_color': 'black', 'content_color':'white'}
+    override_theme = {'bgcolor': '#CBB3FF','progress_color': 'purple', 'content_color':'white'}
+    # theme_Ollie = {'bgcolor': '#D60E54','progress_color': '#B7030E', 'content_color':'white'}
+    # theme_Kobo = {'bgcolor': '#CDEDFC','progress_color': '#161C4F', 'content_color':'white'}
     
     with cols[1]:
         st.write('density')
