@@ -19,24 +19,24 @@ def tweet_stats(container, data, username):
         IMG_URLS[username]
     )
     average_data = data.mean()
-    cols[1].write(f'average retweet count: ')
-    cols[1].write(math.floor(average_data["retweet_count"]))
-    override_theme = vtuber_themes[username]
     
     with cols[1]:
+        st.write(f'average retweet count: ')
+        st.write(math.floor(average_data["retweet_count"]))
+        override_theme = vtuber_themes[username]
         st.write('density')
-        hc.progress_bar(average_data['density'] * 100, f"{average_data['density']}", override_theme=override_theme, key='density')
+        hc.progress_bar(average_data['density'] * 100, f"{average_data['density']}", override_theme=override_theme, key=f'density_{username}')
 
         st.write('centrality')
-        hc.progress_bar(average_data['centrality'] * 100, f"{average_data['centrality']}", override_theme=override_theme, key='centrality')
+        hc.progress_bar(average_data['centrality'] * 100, f"{average_data['centrality']}", override_theme=override_theme, key=f'centrality_{username}')
 
         st.write('clustering coeffecient')
-        hc.progress_bar(average_data['avg_clustering_coef'] * 100, f"{average_data['avg_clustering_coef']}", override_theme=override_theme, key='clustering')
+        hc.progress_bar(average_data['avg_clustering_coef'] * 100, f"{average_data['avg_clustering_coef']}", override_theme=override_theme, key=f'clustering_{username}')
 
         st.write('reciprocity')
-        hc.progress_bar(average_data['reciprocity'] * 100, f"{average_data['reciprocity']}", override_theme=override_theme, key='reciprocity')
+        hc.progress_bar(average_data['reciprocity'] * 100, f"{average_data['reciprocity']}", override_theme=override_theme, key=f'reciprocity_{username}')
 
-def tweet_networks(container, data, username):
+def read_networks(data, username):
     file_path = '/data/data/{}'
     g = nx.DiGraph()
     for idx, i in data.iterrows():
@@ -52,8 +52,12 @@ def tweet_networks(container, data, username):
     path = '/tmp'
     tweet_net.save_graph(f'../{path}/pyvis_graph.html')
     HtmlFile = open(f'../{path}/pyvis_graph.html', 'r', encoding='utf-8')
+    return HtmlFile.read()
+
+def tweet_networks(container, data, username):
+    html_content = read_networks(data, username)
     with container:
-        sc.html(HtmlFile.read(), height=435)
+        sc.html(html_content, height=435)
 
 def create_stats(container, username):
     inspect = st.checkbox('inspect data')
@@ -65,9 +69,11 @@ def create_stats(container, username):
             if inspect:
                 st.dataframe(data.drop('row_number', axis=1))
             else:
-                tabs = st.tabs(['stats', 'network'])
-                tweet_stats(tabs[0], data, username)
-                tweet_networks(tabs[1], data, username)
+                tweet_stats(st, data, username)
+                calculate_network = st.checkbox('show network')
+                if calculate_network:
+                    tweet_networks(cat_tabs[0], data, username)
+                    
     with cat_tabs[1]:
         stream_dates = date_menu(st, username, key='stream_date', table_name='stream_fact')
         if len(stream_dates) == 2:
@@ -77,7 +83,6 @@ def create_stats(container, username):
                 row_data = {}
                 with cols[0]:
                     st.write('stream stats df')
-                    # cols[0].dataframe(data.drop('topic_mapping_id', axis=1), use_container_width=True)
                     gb = GridOptionsBuilder.from_dataframe(data.drop('topic_mapping_id', axis=1))
                     gb.configure_selection('single', use_checkbox=True)
                     row_data = AgGrid(

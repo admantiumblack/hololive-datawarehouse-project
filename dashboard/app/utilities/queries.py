@@ -77,6 +77,7 @@ def get_stream_fact_table(username, date_range):
         params=params
     )
 
+@st.cache
 def get_topics(topic_mapping_id):
     connection = Connector(**DB_PARAM).db_engine
     query = '''
