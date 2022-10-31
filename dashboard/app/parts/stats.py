@@ -9,6 +9,7 @@ from config import IMG_URLS
 import streamlit as st
 import networkx as nx
 from pyvis.network import Network
+from utilities.themes import vtuber_themes
 from st_aggrid import AgGrid, GridOptionsBuilder
 
 
@@ -20,9 +21,7 @@ def tweet_stats(container, data, username):
     average_data = data.mean()
     cols[1].write(f'average retweet count: ')
     cols[1].write(math.floor(average_data["retweet_count"]))
-    override_theme = {'bgcolor': '#CBB3FF','progress_color': 'purple', 'content_color':'white'}
-    # theme_Ollie = {'bgcolor': '#D60E54','progress_color': '#B7030E', 'content_color':'white'}
-    # theme_Kobo = {'bgcolor': '#CDEDFC','progress_color': '#161C4F', 'content_color':'white'}
+    override_theme = vtuber_themes[username]
     
     with cols[1]:
         st.write('density')

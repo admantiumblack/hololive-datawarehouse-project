@@ -1,2 +1,5 @@
-THEME_BAD = {'bgcolor': '#FFF0F0','title_color': 'red','content_color': 'red','icon_color': 'red', 'icon': 'fa fa-times-circle'}
-THEME_GOOD = {'bgcolor': '#EFF8F7','title_color': 'green','content_color': 'green','icon_color': 'green', 'icon': 'fa fa-check-circle'}
+vtuber_themes = {
+    'moonahoshinova': {'bgcolor': '#CBB3FF','progress_color': 'purple', 'content_color':'white'},
+    'kureijiollie':{'bgcolor': '#D60E54','progress_color': '#B7030E', 'content_color':'white'},
+    'kobokanaeru': {'bgcolor': '#CDEDFC','progress_color': '#161C4F', 'content_color':'white'}
+}
