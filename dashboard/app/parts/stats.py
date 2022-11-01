@@ -1,3 +1,4 @@
+import time
 from utilities.components import stream_plot, talent_name_menu, date_menu
 import hydralit_components as hc
 from utilities.queries import get_stream_fact_table, get_topics, get_tweet_fact_table
@@ -11,6 +12,7 @@ import networkx as nx
 from pyvis.network import Network
 from utilities.themes import vtuber_themes
 from st_aggrid import AgGrid, GridOptionsBuilder
+import extra_streamlit_components as stx
 
 
 def tweet_stats(container, data, username):
@@ -60,9 +62,12 @@ def tweet_networks(container, data, username):
         sc.html(html_content, height=435)
 
 def create_stats(container, username):
+    chosen_id = stx.tab_bar(data=[
+        stx.TabBarItemData(id=1, title="Tweets", description="Tweets made by the talent"),
+        stx.TabBarItemData(id=2, title="Stream", description="Youtube stream statistics"),
+    ], default=1)
     inspect = st.checkbox('inspect data')
-    cat_tabs = container.tabs(['tweet', 'stream'])
-    with cat_tabs[0]:
+    if chosen_id == '1':
         tweet_dates = date_menu(st, username, key='tweet_date')
         if len(tweet_dates) == 2:
             data = get_tweet_fact_table(username, tweet_dates)
@@ -72,9 +77,9 @@ def create_stats(container, username):
                 tweet_stats(st, data, username)
                 calculate_network = st.checkbox('show network')
                 if calculate_network:
-                    tweet_networks(cat_tabs[0], data, username)
-                    
-    with cat_tabs[1]:
+                    tweet_networks(st, data, username)
+
+    elif chosen_id == '2':
         stream_dates = date_menu(st, username, key='stream_date', table_name='stream_fact')
         if len(stream_dates) == 2:
             data = get_stream_fact_table(username, stream_dates)
