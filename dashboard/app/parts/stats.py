@@ -77,7 +77,7 @@ def create_stats(container, username):
                 tweet_stats(st, data, username)
                 calculate_network = st.checkbox('show network')
                 if calculate_network:
-                    tweet_networks(st, data, username)
+                    tweet_networks(st.container(), data, username)
 
     elif chosen_id == '2':
         stream_dates = date_menu(st, username, key='stream_date', table_name='stream_fact')
@@ -104,7 +104,7 @@ def create_stats(container, username):
                         st.dataframe(topics.drop('topic_mapping_id', axis=1), use_container_width=True)
                 
             else:
-                stream_plot(st, data, username)
+                stream_plot(st.container(), data, username)
     
 def single_stat():
     talent_name = talent_name_menu(st.sidebar, key='name')
@@ -118,6 +118,6 @@ def single_stat():
             """,
             unsafe_allow_html=True
     )
-    create_stats(st, talent_name)
+    create_stats(st.container(), talent_name)
     
 
