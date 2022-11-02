@@ -23,7 +23,7 @@ def compare_stats():
         for idx, i in enumerate(outer_cols):
             i.title(talent_names[idx])
             vtuber_image(i, talent_names[idx])
-        for key in ['density', 'centrality', 'avg_clustering_coef', 'reciprocity']:
+        for key in ['retweet_count', 'density', 'centrality', 'avg_clustering_coef', 'reciprocity']:
             cols = st.container().columns(2)
             for idx, j in enumerate(cols):
                 theme = get_theme(tweet_datas[idx], tweet_datas[-(idx + 1)], key = key)
